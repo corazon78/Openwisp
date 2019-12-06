@@ -1,2 +1,14 @@
+class Parent:
+                def __init__(self):
+                        print("This is a parent class")
+                def parentFunc(self):
+                        print("This is a parent func")
 
-print('Hellow world, I am Taufik from GCI 2019.')
+class Child(Parent):
+                def __init__(self):
+                         print("This is a child class")
+                def childFunc(self):
+                         print("This is a child func")
+
+
+
